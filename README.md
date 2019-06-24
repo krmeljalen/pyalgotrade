@@ -7,7 +7,9 @@ To use local version of pyalgotrade just copy it in the same folder as your pyth
 
 ### Usage
 
-All barfeeds now support 2 arguments:
+All LiveFeed and LiveBroker now support 2 arguments. 
+
+Example:
 
 `barFeed = barfeed.LiveTradeFeed("LTC", "EUR")`
 
@@ -17,4 +19,16 @@ If you call it with:
 
 It will use BTC/USD as non modded version, for backward compatibility.
 
-###
+### Note
+
+There might be some bugs around so try things with papertrader first, then go with live one.
+
+### Credits
+
+Me, Myself and I.
+
+### License
+
+Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+
+[https://creativecommons.org/licenses/by-nc-nd/4.0/]: https://creativecommons.org/licenses/by-nc-nd/4.0/
